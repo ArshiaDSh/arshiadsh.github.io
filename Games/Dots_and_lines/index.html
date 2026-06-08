@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dot and Line</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="icon" href="assets/Icon.png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="game">
+            <div class="sec g-start">
+                <div class="btn s-btn">Start New Game</div>
+            </div>
+            <div class="sec g-mode" style="display: none;">
+                <div class="title">Choose Game Mode</div>
+                <div class="btn m-one" mvalue="1">1 v 1</div>
+                <div class="btn m-two" mvalue="2" style="display: none;">With pc</div>
+            </div>
+            <div class="sec g-color" style="display: none;">
+                <div class="title">Choose your color</div>
+                <div class="colors">
+                    <div cvalue="1" class="color blue"></div>
+                    <div cvalue="2" class="color red"></div>
+                </div>
+            </div>
+            <div class="sec g-sizes" style="display: none;">
+                <div class="title">Choose The Size Of The Board(Larger than 2)</div>
+                <div class="sizes">
+                    <span class="w s"><input type="number" min="3" required></span>
+                    <span class="x">X</span>
+                    <span class="h s"><input type="number" min="3" required></span>
+                </div>
+                <div class="btn c-btn">
+                    Confirm
+                </div>
+            </div>
+            <div class="sec g-board" style="display: none;">
+                <div class="scores">
+                    <div class="score">
+                        <div class="color blue active"></div>
+                        <span>0</span>
+                    </div>
+                    <div class="score">
+                        <div class="color red"></div>
+                        <span>0</span>
+
+                    </div>
+                </div>
+                <div class="board">
+                </div>
+            </div>
+            <div class="sec g-res" style="display: none;">
+                <div class="title">Blue wins!</div>
+                <div class="sides">
+                    <div class="side">
+                        <div class="color blue"></div>
+                        <span>0</span>
+                    </div>
+                    <div class="side">
+                        <div class="color red"></div>
+                        <span>0</span>
+
+                    </div>
+                </div>
+                <div class="btn ng-btn">Start A New Game</div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="assets/jquery-3.3.1.js"></script>
+<script src="assets/scripts.js"></script>
+
+
+</html>

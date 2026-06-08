@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="icon" href="assets/icon.png">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="cords">
+            <h3>(Rows and Columns Between 6 and 30 and mines at least 10 less then board size)</h3>
+            <div class="c-row">
+                <span class="w"><input type="text" value="16"></span>
+                <span class="x">X</span>
+                <span class="h"><input type="text" value="16"></span>
+                <span class="mine">
+                    <div class="flag"></div>:<input type="text" value="40">
+                </span>
+            </div>
+            <button class="btn">Start The Game</button>
+        </div>
+        <div class="play-board" style="display: none;">
+
+        </div>
+        <div class="counter" style="display: none;">
+            <div class="game-over" style="display: none;">
+                <div class="result"></div>
+                <div class="time"></div>
+                <button class="reset-btn">New Game</button>
+            </div>
+            <div class="flag-con">
+                <div class="flag"></div>
+                <span>:</span>
+                <div class="flag-count"></div>
+            </div>
+            <div class="timer"></div>
+        </div>
+    </div>
+</body>
+<script src="assets/jquery-3.3.1.js"></script>
+<script src="assets/scripts.js"></script>
+
+</html>
