@@ -4,8 +4,6 @@ body {
     background-image: url('assets/bg.jpg');
     background-size: 100% 100vh;
     margin: 0;
-
-
 }
 
 .container {
@@ -137,6 +135,7 @@ body {
     /* display: flex; */
     /* justify-content: space-evenly; */
 }
-.counter{
+
+.counter {
     margin-bottom: 30px;
 }
