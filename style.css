@@ -298,3 +298,55 @@ body {
         padding: 15px 25px;
     }
 }
+
+/* Contact Section */
+.contact-section {
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 40px 0;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.contact-section h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contact-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.contact-btn:hover {
+    transform: translateY(-3px);
+    opacity: 0.9;
+}
+
+.telegram {
+    background: #0088cc;
+    color: white;
+}
+
+.email {
+    background: #ea4335;
+    color: white;
+}
+
+.contact-btn.github {
+    background: #333;
+    color: white;
+}
