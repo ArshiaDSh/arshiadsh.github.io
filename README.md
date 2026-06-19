@@ -44,7 +44,7 @@ Check out the live portfolio here:
 ---
 
 ## 📁 Project Structure
-
+```
 arshiadsh.github.io/
 ├── index.html # Main portfolio page
 ├── style.css # Portfolio styles
@@ -61,10 +61,8 @@ arshiadsh.github.io/
 │ │ └── index.html
 │ └── dotsandboxes/
 │ └── index.html
-└── README.md # This file
-text
-
-
+└── README.md    # This filetext
+```
 ---
 
 ## 🧠 What I Learned
