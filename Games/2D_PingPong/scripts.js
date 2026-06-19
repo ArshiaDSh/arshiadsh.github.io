@@ -9,22 +9,12 @@ $(document).ready(function () {
     var pScore = 0;
     var cScore = 0;
     var rCount = 0;
-    $(document).keydown(function (e) {
-        topDistance = parseInt($('.right-side .mover').css('top'));
-        // for (let i = 0; i < 10; i++) {
-        //     if (topDistance > 0) {
-        //         $('.right-side .mover').css('top', (topDistance - 15) + 'px');
-        //     }
-
-        // }
-        // mover(e);
-    });
     var pPgaeY;
     $(document).mousemove(function (e) {
         topDistance = parseInt($('.right-side .mover').css('top'));
         if (pPgaeY) {
             var d = e.pageY - pPgaeY;
-            var nTop = topDistance + 2 * d;
+            var nTop = topDistance + 3 * d;
             if (nTop >= 0 && nTop <= 280) {
                 $('.right-side .mover').css('top', nTop + 'px');
             } else {
