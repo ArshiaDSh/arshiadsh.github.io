@@ -350,3 +350,33 @@ body {
     background: #333;
     color: white;
 }
+
+/* About Section */
+.about-section {
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    animation: fadeInUp 0.8s ease;
+}
+
+.about-section h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.about-section p {
+    color: #666;
+    line-height: 1.8;
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.05rem;
+}
+
+/* Contact Links */
+.contact-links .play-btn {
+    min-width: 120px;
+}
